@@ -1,0 +1,19 @@
+{
+	"name": "synced-text",
+	"private": true,
+	"description": "Support for inline text snippets that work like synced patterns",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style --fix",
+		"lint:js": "wp-scripts lint-js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "GPL-2.0-or-later",
+	"dependencies": {
+		"@wordpress/scripts": "^28.6.0"
+	}
+}
